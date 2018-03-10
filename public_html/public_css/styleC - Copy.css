@@ -1,0 +1,352 @@
+*{margin:0px; padding:0px;}
+body{font-family: 'Open Sans', sans-serif;}
+.clr{clear: both;}
+a{text-decoration:none; outline:0;}
+a img{border:0; outline:0;}
+textarea{resize:vertical;}
+input[type="submit"], input[type="button"], button{cursor:pointer;}
+
+
+
+/*-----homepage----*/
+.container {width:1170px; margin:0px auto;}
+.banner {background:rgba(0, 0, 0, 0) url("clg.jpg") no-repeat scroll 0 0 / cover ; width:100%; padding:180px 0px; }
+
+.bannerow1 {  position: absolute;  width: 100%;}
+.logo {  float: left;  padding: 22px 0; }
+.nav {  float: right;  padding: 46px 0;}
+.nav ul li {  color: #ffffff;  display: inline;  font-size: 14px;  list-style: outside none none;  padding: 0 0 0 25px; font-weight: bold;   text-transform: uppercase;}
+.nav ul li a {  color: #ffffff;  padding: 7px 12px;}
+.nav ul li a:hover{background:#d1971b; padding: 7px 12px;}
+.nav ul li a: active{background:#d1971b;}
+.bannerow2{text-align:center;}
+.bannerow2 h1 {  color: #ffffff;  font-size: 74px;  font-weight: bolder;  padding: 38px 0 0;  text-transform: uppercase;      text-shadow: 3px 2px 3px #0e110d;}
+.bannerow2 p {  color: #ffffff;  font-size: 18px;  text-transform: uppercase;  padding: 0 0 34px;}
+.bannerow2 > a { background: #d1971b none repeat scroll 0 0;  border-radius: 2px;  color: #ffffff;  padding: 10px 28px;  margin: 0 0px; box-shadow: 0px 3px 1px #3e3e15; font-size: 14px;    font-weight: 700; text-transform: uppercase;}
+
+.about {  padding: 40px 0;}
+.aboutimg {  float: left;  width: 40%;}
+.aboutimg > img {  width: 100%; margin: 50px 0 0;}
+.abouttext {
+  float: left;
+  padding-left: 3%;
+  width: 57%;
+}
+.abouttext h1 {  color: #303030;  font-weight: 600;  text-transform: uppercase;}
+.abouttext h6 {  color: #606060;  font-size: 16px;  font-style: italic;  font-weight: 600;  border-bottom: 1px solid #303030 ;  padding: 0px 0px 8px ;}
+.abouttext > p {  color: #606060;  font-size: 14px;  line-height: 28px;  padding: 10px 0;  font-weight: 400;}
+.abouttext > a { background: #d1971b none repeat scroll 0 0;  border-radius: 2px;  color: #ffffff;  padding: 10px 32px;  margin: 0 0px; box-shadow: 0 3px 1px #E6BA61; font-size: 14px;    font-weight: 700;text-transform: uppercase;  float: left;  margin: 8px 0;}
+
+
+.crop{width:100%;}
+.cropleft{width:50%; float:left;  background:#f4f4f4; }
+.cropright{  float: right;    width: 50%; }
+.cropright img{width:100%;}
+.crop_text {		float: right;	width: 80%;	margin:54px 50px 58px 0px}
+.crop_text h1 {  color: #303030  font-weight: 600;  text-transform: uppercase; }
+.crop_text h6 { color: #606060;  font-size: 16px;  font-style: italic;  font-weight: 600;  border-bottom: 1px solid #303030 ;  padding: 0px 0px 8px ;}
+.crop_text li {background: rgba(0, 0, 0, 0)  no-repeat scroll left ; box-shadow: 0 1px 0 #d7d7d7; display: block; padding: 15px 0 15px 23px;  }
+.crop_text ul li p { display: inline-block; padding: 10px 0px 10px 20px; color:#606060; font-size:18px;}
+.crop_text ul li a {
+  background: rgb(209, 151, 27) none repeat scroll 0 0;
+  border-radius: 2px;
+  box-shadow: 0 3px 1px rgb(230, 186, 97);
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 34px;
+}
+
+
+
+.partner{  padding: 40px 0 0;}
+.partner h1 {  color: #303030;  font-weight: 600;  text-transform: uppercase; text-align:center;}
+.partner h6 {  color: #606060;  font-size: 16px;  font-style: italic;  font-weight: 600;  border-bottom: 1px solid #303030 ;  padding: 0px 0px 8px ;  text-align:center;}
+.partner ul li {  float: left;  list-style: outside none none;  padding: 0 0 0 0px;}
+
+
+
+
+.mission h1 {  color: #fff;  font-weight: 600;  text-transform: uppercase; font-size: 25px;  }
+.mission  h6 {  color: #fff;  font-size: 14px;   font-weight:normal;  padding: 0px 0px 8px ;  }
+.mission  h6 {  color: #fff;  font-size: 14px;   font-weight:normal;  padding: 0px 0px 8px ;  }
+.mission p {  color: #fff;  font-size: 14px;  line-height: 22px;  padding: 20px 0px 0px 0px;  font-weight: 400;}
+.buy {
+  background: rgba(0, 0, 0, 0) url("clg1.jpg") no-repeat scroll 0 0 / cover ;
+  float: left;
+  padding: 101px 8%;
+  width: 27%;
+}
+.buy a { background: #d1971b none repeat scroll 0 0;  border-radius: 2px;  color: #ffffff;  padding: 10px 16px;  margin: 0 0px; box-shadow: 0 3px 1px rgb(93, 75, 39); font-size: 14px;    font-weight: 700;text-transform: uppercase;  float: left;  margin: 8px 0;}
+.growth {
+  background: rgba(0, 0, 0, 0) url("clg2.jpg") no-repeat scroll 0 0 / cover ;
+  float: right;
+  padding: 37px 7%;
+  width: 43%; min-height: 230px
+}
+.mission {
+  background: rgb(90, 83, 75) none repeat scroll 0 0;
+}
+.growth a { background: #d1971b none repeat scroll 0 0;  border-radius: 2px;  color: #ffffff;  padding: 10px 16px;  margin: 0 0px; box-shadow: 0 3px 1px rgb(93, 75, 39); font-size: 14px;    font-weight: 700;text-transform: uppercase;  float: left;  margin: 8px 0;}
+
+
+.contact {
+  background: rgb(39, 67, 3) none repeat scroll 0 0;
+  float: left;
+  width: 100%;
+}
+.contactleft{width:50%; float:left;}
+.contactright{  float: left;    width: 50%; background:#274303;}
+.contactleft img{width:100%;}
+.form_text{padding:30px 0 29px 30px;}
+.form_text h1 {  color: #fff;  font-weight: 600;  text-transform: uppercase; }
+.form_text h6 { width: 82%; color: #fff;  font-size: 16px;  font-style: italic;  font-weight: 600;  border-bottom: 1px solid #fff ;  padding: 0px 0px 8px ;}
+.form_text  a { background: #d1971b none repeat scroll 0 0;  border-radius: 2px;  color: #ffffff;  padding: 10px 240px;  margin: 0 0px; box-shadow:0 3px 1px #253302;}
+.form_text form {	margin: 10px 0px 5px;}
+.form_text input {	width: 80%;	margin: 10px 0;	padding:10px 0 10px 10px;}
+.form_text textarea {width: 80%;	margin:8px 0 20px;}
+
+
+.crop {
+  background: rgb(244, 244, 244) none repeat scroll 0 0;
+  float: left;
+}
+
+.growth > p {
+}
+.form_text textarea {
+  padding: 10px 0 0 10px;    font-family: open sans;
+    font-size: 14px; height:98px;
+}
+
+.form_text input{font-family: open sans;
+    font-size: 14px;
+}
+
+input.sbt1{
+	 background:rgb(209, 151, 27) url('button-bg.jpg') repeat; 
+    border-radius: 2px;
+    box-shadow: 0 3px 1px rgb(37, 51, 2);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 12px 240px;border:none;font-weight:bold;
+}
+nav{position:static !important;}
+
+.page-inner {
+  min-height: 200px;  padding: 30px 0;
+}
+
+.banner.banner-inner{padding:80px 0;}
+
+.bannerow2 > a:hover,.abouttext > a:hover, .crop_text ul li a:hover, .buy a:hover, .growth a:hover, input.sbt1:hover{
+	/* background:#e09f13; */}
+
+.ace-responsive-menu {
+      
+}
+.ace-responsive-menu li{
+    list-style: none;
+}
+.ace-responsive-menu li ul {
+    display:none;
+}
+
+.ace-responsive-menu li a {
+
+}
+.ace-responsive-menu > li > a {
+
+}
+.ace-responsive-menu li a i {
+    padding-right: 5px;
+    color: #FF5737;
+}
+
+
+.ace-responsive-menu > li > ul.sub-menu {
+    display: none;
+    list-style: none;
+    clear: both;
+    margin: 0;
+    position: absolute;
+}
+.ace-responsive-menu li ul.sub-menu {
+    background: #333;
+}
+.ace-responsive-menu li ul.sub-menu > li {
+    width: 185px;
+}
+.ace-responsive-menu li ul.sub-menu li a {
+    display: block;
+    margin: 0px 0px;
+    padding: 12px 20px 12px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    background: none;
+}
+.ace-responsive-menu > li > ul.sub-menu > li {
+    position: relative;
+}
+.ace-responsive-menu > li > ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    left: 185px;
+    top: 0px;
+    display: none;
+    list-style: none;
+}
+.ace-responsive-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+    position: absolute;
+    left: 185px;
+    top: 0px;
+    display: none;
+    list-style: none;
+}
+.ace-responsive-menu > li > ul.sub-menu li > a > .arrow:before {
+    float: right;
+    margin-top: 1px;
+    margin-right: 0px;
+    display: inline;
+    font-size: 16px;
+    font-family: FontAwesome;
+    height: auto;
+    content: "\f104";
+    font-weight: 300;
+    text-shadow: none;
+}
+
+/* Menu Toggle Btn
+----------------------------------------*/
+.menu-toggle {
+    display: none;
+    float: left;
+    width: 100%;
+    background:rgb(209, 151, 27) none repeat scroll 0 0;
+}
+.menu-toggle h3 {
+    float: left;
+    color: #FFF;
+    padding:10px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu-toggle .icon-bar {
+    display: block !important;
+    width: 18px;
+    height: 2px;
+    background-color: #F5F5F5 !important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    margin: 3px;
+}
+.menu-toggle .icon-bar:hover {
+    background-color: #F5F5F5 !important;
+}
+.menu-toggle #menu-btn {
+    float: right;
+    background: none;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.hide-menu {
+    display: none;
+}
+
+
+
+
+/* Responsive Menu Styles
+----------------------------------------*/
+/*Note: change the max-width asper your requirment and change the same in aceResponsiveMenu({resizeWidth: "767" }) function*/
+
+@media screen and (max-width: 767px) {
+    .demo {
+		width:96%;
+		padding:2%;
+    }
+    ul[data-menu-style="vertical"] , ul[data-menu-style="accordion"],
+    ul[data-menu-style="vertical"] li ul.sub-menu {
+        width: 100% !important;
+    } 
+    .ace-responsive-menu {
+        float: left;
+        width:100%;
+    }
+  .ace-responsive-menu > li {
+  float: left;
+  width: 100%;
+}  
+    .ace-responsive-menu li a:hover {
+    
+    }
+     
+    .ace-responsive-menu > li > a i {
+        padding-right: 10px;
+        color: #FF5737;
+    }
+    .ace-responsive-menu > li > a > .arrow:before {
+        float: right;
+        content: "\f105";
+    }
+    li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+    .ace-responsive-menu li ul.sub-menu > li {
+        width: 100%;
+    }
+    .ace-responsive-menu li ul.sub-menu li ul.sub-menu li a
+        {
+        padding-left: 30px;
+    }  
+    .ace-responsive-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a 
+       {
+        padding-left: 50px;
+    }  
+    .ace-responsive-menu > li > ul.sub-menu {
+        position: static;
+    }
+    .ace-responsive-menu > li > ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .ace-responsive-menu > li > ul.sub-menu > li ul.sub-menu > li ul.sub-menu {
+        position: static;
+    }
+    .ace-responsive-menu li ul.sub-menu li.menu-active > a > .arrow:before {
+        content: "\f107" !important;
+    }
+}
+
+.footer {
+  color: rgb(0, 0, 0);
+  float: left;
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.partner ul {
+  border-top: 1px solid rgb(48, 48, 48);
+  margin-top: 10px;
+}
+.contactdiv {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.form_text > h6 {
+  margin-bottom: 15px;
+}
+
+.contactdiv a{background:none !important;
+border:none !important;padding:0px !important;box-shadow:none !important;
+}

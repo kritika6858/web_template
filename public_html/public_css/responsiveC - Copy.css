@@ -1,0 +1,538 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+.container{ width:1000px;}
+.partner ul li {
+  padding: 0 1%;
+  width: 14%;
+}
+.partner li img {
+  height: auto;
+  width: 100%;
+}
+.growth > p {
+  width: 100%;
+}
+.buy {
+  padding: 112px 8%;
+}
+.abouttext > p {
+  font-size: 13px;
+  line-height: 25px;
+  padding: 5px 0;
+}
+.crop_text h6 {
+  font-size: 13px;
+}
+.crop_text ul li p {
+  padding: 6px 0 6px 20px;
+}
+.crop_text ul li a {
+  padding: 7px 20px;
+}
+.form_text textarea {
+  height: 140px;
+}
+.form_text input {
+  margin: 10px 0;
+  padding: 10px;
+}
+input.sbt1 {
+  padding: 10px;
+}
+.form_text textarea {
+  margin: 10px 0;
+}
+}
+@media only screen and (min-width:900px) and (max-width:1023px) {
+.container{ width:880px;}
+.partner ul li {
+  padding: 0 1%;
+  width: 14%;
+}
+.partner li img {
+  height: auto;
+  width: 100%;
+}
+.abouttext > p {
+  font-size: 13px;
+  line-height: 22px;
+  padding: 5px 0;
+}
+.crop_text li {
+  padding: 5px 0 5px 23px;
+}
+.crop_text ul li a {
+  font-size: 14px;
+  padding: 7px 16px;
+}
+.crop_text ul li p {
+  font-size: 15px;
+  padding: 7px 0 7px 20px;
+}
+input.sbt1 {
+  padding: 10px;
+}
+.form_text textarea {
+  height: 100px;
+}
+.form_text input {
+  margin: 5px 0;
+  padding: 10px 0 10px 10px;
+}
+.form_text textarea {
+  margin: 5px 0 12px;
+}
+.form_text h6 {
+  font-size: 13px;
+  line-height: 15px;
+}
+.form_text {
+  padding: 19px 0 22px 30px;
+}.buy {
+  padding: 123px 8%;
+}
+}
+@media only screen and (min-width:768px) and (max-width:899px) {
+.container{ width:740px;}
+.nav ul li {
+  padding: 0 0 0 4px;
+}
+.bannerow2 h1 {
+  font-size: 48px;
+}
+.abouttext > p {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 2px 0;
+}
+.abouttext h6 {
+  font-size: 14px;
+}
+.abouttext > a {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+.crop_text {
+  margin: 22px 37px 44px 0;
+}
+.crop_text ul li a {
+  font-size: 14px;
+  padding: 6px 10px;
+}
+.crop_text ul li p {
+  font-size: 14px;
+}
+.crop_text li {
+  padding: 8px 0 0 23px;
+}
+.crop_text h6 {
+  font-size: 12px;
+  line-height: 12px;
+}
+.abouttext h1,.crop_text h1,.partner h1,.mission h1,.form_text h1 {
+  font-size: 25px;
+}
+.partner ul li {
+  padding: 0 1%;
+  width: 14%;
+}
+.partner li img {
+  height: auto;
+  width: 100%;
+}
+.growth > p {
+  width: 100%;
+}
+.mission p {
+  font-size: 12px;
+  line-height: 16px;
+}
+.buy {
+  padding: 92px 8%;
+}
+ input.sbt1 {
+  padding: 10px;
+}
+.form_text input {
+  margin: 5px 0;
+  padding: 5px 0 5px 5px;
+}
+.form_text textarea {
+  height: 60px;
+}
+.form_text textarea {
+  margin: 5px 0 10px;
+}
+.form_text h6 {
+  font-size: 13px;
+  line-height: 16px;
+}
+.form_text {
+  padding: 2px 0 5px 30px;
+}
+
+.contactdiv {
+  font-size: 12px;
+  margin-top: 2px;
+}
+.form_text > h6 {
+  margin-bottom: 5px;
+}
+}
+
+@media only screen and (min-width:600px) and (max-width:767px) {
+
+.container{ width:580px;}
+.banner.banner-inner {
+  padding: 221px 0 34px;
+}
+.nav {
+  background: rgb(209, 151, 27) none repeat scroll 0 0;
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0px 0;
+  text-align: center;
+  width: 100%;
+}
+.logo {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+.bannerow2 h1 {
+  font-size: 25px;
+  padding: 12px 0 0;
+}
+.bannerow2 p {
+  font-size: 14px;
+  padding: 4px 0 34px;
+}
+
+.bannerow2 > a {
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.aboutimg {
+  width: 100%;
+}
+.abouttext {
+  width: 100%;
+}
+.cropleft {
+  float: none;
+  margin: 0 auto;
+  width: 90%;
+}
+.crop_text {
+  margin: 54px 0 58px;
+  width: 100%;
+}
+.cropright {
+  width: 100%;
+}
+.partner ul li {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+.buy {
+  padding: 50px 4%;
+  width: 92%;
+}
+.growth {
+  padding: 50px 4%;
+  width: 92%;
+}
+.contactleft {
+  width: 100%;
+}
+.contactright {
+  width: 100%;
+}
+.form_text {
+  padding: 20px 4%;
+  width: 92%;
+}
+.form_text input ,.form_text textarea{
+  width: 100%;
+}
+input.sbt1 {
+  padding: 10px;
+}
+.form_text h6 {
+  width: 100%;
+}
+.growth > p {
+  width: 100%;
+}
+
+.mission p {
+  padding: 10px 0;
+}
+.abouttext h1,.crop_text h1,.partner h1,.form_text h1,.mission h1 {
+  font-size: 22px;
+}
+.aboutimg > img {
+  margin: 10px 0 0;
+}
+.banner {
+  padding: 158px 0 55px;
+}
+.nav ul li {
+  background: rgb(209, 151, 27) none repeat scroll 0 0;
+  border-top: 1px solid;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.btn.btn-menu {
+  padding:7px 0px;cursor:pointer;background:#D1971B;
+}
+.crop_text ul li a {
+  font-size: 13px;
+  padding: 9px 15px;
+}
+.simple-menu.clearfix > ul{width:580px !important;}
+.abouttext { padding-left: 0%;
+}
+}
+@media only screen and (min-width:480px) and (max-width:599px) {
+.container{ width:450px;}
+.banner.banner-inner {
+  padding: 212px 0 30px;
+}
+.nav {
+  background: rgb(209, 151, 27) none repeat scroll 0 0;
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0px 0;
+  text-align: center;
+  width: 100%;
+}
+.logo {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+.bannerow2 h1 {
+  font-size: 25px;
+  padding: 12px 0 0;
+}
+.bannerow2 p {
+  font-size: 14px;
+  padding: 4px 0 34px;
+}
+
+.bannerow2 > a {
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.aboutimg {
+  width: 100%;
+}
+.abouttext {
+  width: 100%;
+}
+.cropleft {
+  float: none;
+  margin: 0 auto;
+  width: 90%;
+}
+.crop_text {
+  margin: 54px 0 58px;
+  width: 100%;
+}
+.cropright {
+  width: 100%;
+}
+.partner ul li {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+.buy {
+  padding: 50px 4%;
+  width: 92%;
+}
+.growth {
+  padding: 50px 4%;
+  width: 92%;
+}
+.contactleft {
+  width: 100%;
+}
+.contactright {
+  width: 100%;
+}
+.form_text {
+  padding: 20px 4%;
+  width: 92%;
+}
+.form_text input ,.form_text textarea{
+  width: 100%;
+}
+input.sbt1 {
+  padding: 10px;
+}
+.form_text h6 {
+  width: 100%;
+}
+.growth > p {
+  width: 100%;
+}
+
+.mission p {
+  padding: 10px 0;
+}
+.abouttext h1,.crop_text h1,.partner h1,.form_text h1,.mission h1 {
+  font-size: 22px;
+}
+.aboutimg > img {
+  margin: 10px 0 0;
+}
+.banner {
+  padding: 158px 0 55px;
+}
+.nav ul li {
+  background: rgb(209, 151, 27) none repeat scroll 0 0;
+  border-top: 1px solid;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.btn.btn-menu {
+  padding:7px 0px;cursor:pointer;background:#D1971B;
+}
+.crop_text ul li a {
+  font-size: 13px;
+  padding: 9px 15px;
+}
+.simple-menu.clearfix > ul{width:450px !important;}
+.abouttext { padding-left: 0%;
+}
+}
+@media only screen and (min-width:0px) and (max-width:479px) {
+.container{ width:300px;}
+.banner.banner-inner {
+  padding: 165px 0 30px;
+}
+.nav {
+  background: rgb(209, 151, 27) none repeat scroll 0 0;
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0px 0;
+  text-align: center;
+  width: 100%;
+}
+.bannerow2 h1 {
+  font-size: 25px;
+  padding:30px 0 0;
+}
+.bannerow2 p {
+  font-size: 14px;
+  padding: 4px 0 34px;
+}
+
+.bannerow2 > a {
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.aboutimg {
+  width: 100%;
+}
+.abouttext {
+  width: 100%; padding-left: 0%;
+}
+.cropleft {
+  float: none;
+  margin: 0 auto;
+  width: 90%;
+}
+.crop_text {
+  margin: 54px 0 58px;
+  width: 100%;
+}
+.cropright {
+  width: 100%;
+}
+.partner ul li {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+.buy {
+  padding: 50px 4%;
+  width: 92%;
+}
+.growth {
+  padding: 50px 4%;
+  width: 92%;
+}
+.contactleft {
+  width: 100%;
+}
+.contactright {
+  width: 100%;
+}
+.form_text {
+  padding: 20px 4%;
+  width: 92%;
+}
+.form_text input ,.form_text textarea{
+  width: 100%;
+}
+input.sbt1 {
+  padding: 10px;
+}
+.form_text h6 {
+  width: 100%;
+}
+.growth > p {
+  width: 100%;
+  font-color: black;
+}
+
+.mission p {
+  padding: 10px 0;
+  font-color: black;
+}
+.abouttext h1,.crop_text h1,.partner h1,.form_text h1,.mission h1 {
+  font-size: 22px;
+}
+.aboutimg > img {
+  margin: 10px 0 0;
+}
+.banner {
+  padding: 158px 0 55px;
+}
+.nav ul li {
+  background: rgb(209, 151, 27) none repeat scroll 0 0;
+  border-top: 1px solid;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.btn.btn-menu {
+  padding:7px 0px;cursor:pointer;background:#D1971B;
+}
+.crop_text ul li a {
+  font-size: 13px;
+  padding: 9px 15px;
+}
+.simple-menu.clearfix > ul{width:300px !important;}
+ .logo {
+  float: none;
+  text-align: center;
+}
+.logo img {
+  width: 40%;
+}
+}
